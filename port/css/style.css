@@ -1,0 +1,249 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+@font-face{
+	font-family: ExtraThin;
+	src: url(../font/chogokubosogothic/chogokubosogothic_5.ttf);
+}
+body{
+	background-color: #eeeeee;
+	font-size: 15px;
+	font-family: ExtraThin;
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	font-size:30px;
+	width:100%;
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 10px;
+	position: fixed;
+	top:0px;
+	z-index: 99;
+	transition: background-color 0.7s;
+}
+/*header:hover{
+	background-color: rgba(255,255,255,0.8);
+}*/
+#top_title{
+	font-size: 50px;
+}
+nav a{
+	color: #8B0000;
+	height: 34px;
+	border-bottom: 1px dotted rgba(100,255,255,0);
+	border-top: 1px dotted rgba(100,255,255,0);
+/*  border-bottom: 1px dotted rgba(32,178,170,0);*/
+	text-decoration: none;
+	transition: color 0.5s, border-color 0.9s, background-color 1.3s;
+}
+nav a:hover {
+  border-color: rgba(105,92,92,1);
+  color: #ffffff;
+  background-color: rgba(0,0,0,0.2);
+}
+#menu{
+	margin: 0px;
+	margin-top:30px; 
+	text-align: center;
+	min-width: 500px;
+}
+a{
+	text-decoration: none;
+}
+ol{
+	margin: 0px;
+	padding: 0px;
+}
+li{
+	list-style: none;
+	text-align: left;
+	margin: 15px 0px;
+}
+#menu li{
+	margin: 0px 20px;
+	padding: 20px
+	list-style: none;
+	display: inline;
+	z-index: 99;
+}
+/*canvas用*/
+body #wrapper{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	z-index: -2;
+}
+h1{
+	font-weight: normal;
+	font-size: 30px;
+}
+h2{
+	font-weight: normal;
+	margin-bottom: 50px;
+}
+#main{
+	width:100%;
+	min-width: 500px;
+	height: 100%;
+	/*position: fixed;*/
+	z-index: -1;
+}
+.center_cont{
+	width: 500px;
+	margin: auto auto;
+}
+.content{
+	/*width: 80%;*/
+	min-width: 500px;
+	/*height: 300px;*/
+	margin: 230px auto;
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 200px;
+	margin-bottom: 400px;
+}
+#first{
+}
+#me{
+	padding-top: 100px;
+	text-align: left;
+}
+#prof{
+	margin-left: 180px;
+	padding-left: 10px;
+}
+.hosoku{
+	font-size: 15px;
+}
+.hosoku2{
+	margin: 50px 0px;
+}
+.red{
+	color: red;
+}
+.fl{
+	float: left;
+}
+.desfl{
+	clear: both;
+}
+.scrImg {
+    margin: 0 auto;
+    margin-left:0;
+    display: block;
+}
+#works{
+}
+.samune img{
+	margin: 0px;
+	padding: 0px;
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+.white_frame{
+	background-color: rgba(255,255,255,0.8);
+	padding: 20px 30px;
+}
+.samune{
+	width: 500px;
+	height: 200px;
+	margin: 20px auto;
+	text-align: left;
+	padding: 10px;
+	height: 150px;
+	background-color: #ffffff;
+}
+.samune p,table{
+	margin: 0;
+	margin-left: 180px;
+}
+.samune table{
+}
+.samune .tit_work,.modal_nakami .tit_work{
+	font-weight: bold;
+	border-bottom: 1px #cccccc dotted;
+}
+.samune:hover{
+	box-shadow: 3px 3px 10px #aaaaaa;
+	-moz-box-shadow: 3px 3px 10px #aaaaaa;  
+	-webkit-box-shadow: 3px 3px 10px #aaaaaa;
+}
+.modal{
+	background-color: #ffffff;
+	position: fixed;
+	width: 600px;
+	height: 400px;
+	top: 50%;
+	left:50%;
+	margin-top: -200px;
+	margin-left: -300px;
+	display: none;
+	z-index: 100;
+}
+.modal_nakami{
+	margin:30px;
+	line-height: 1.5em;
+}
+.modal_nakami p{
+	line-height: 1.5em;
+}
+#modal_back{
+	z-index: 99;
+	display: none;
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 120%; /*forスマホ*/
+	background-color: rgba(0,0,0,0.5);
+}
+.modal_end{
+	border: 1px dotted #dddddd;
+	width: 70px;
+	margin: auto;
+}
+.shadow{
+	box-shadow: 3px 3px 10px #dddddd;
+	-moz-box-shadow: 3px 3px 10px #dddddd;  
+	-webkit-box-shadow: 3px 3px 10px #dddddd;
+}
+.modal.shadow{
+	box-shadow: 3px 3px 10px #000000;
+	-moz-box-shadow: 3px 3px 10px #000000;  
+	-webkit-box-shadow: 3px 3px 10px #000000;	
+}
+.rad{
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+}
+#contact{
+	clear: both;
+	width:100%;
+	margin: 0px;
+	padding-bottom: 100px;
+}
+#contact form{
+	width: 500px;
+	padding: 20px;
+	margin: auto;
+	background-color: rgba(0,0,0,0.2);
+}
+#contact table{
+	width: 500px;
+	margin: 0 auto;
+	text-align: left;
+	height: 300px;
+}
+footer{
+	width: 100%;
+	margin: 0px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #000000;
+}
